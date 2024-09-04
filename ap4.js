@@ -63,9 +63,10 @@ if(e.keyCode===13){
 
 m.addEventListener('click', function(){
 
-h42.textContent=`${numberoftries}` ; 
+
 numberoftries++
 updatenumberoftries();
+h42.textContent=`${numberoftries}` ; 
 
   var num=parseInt(n.value);
 
